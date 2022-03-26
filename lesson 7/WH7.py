@@ -5,7 +5,7 @@ def palindrome(string):
     else:
         return False
 
-
-o = palindrome(121)
+x = input("Введите число")
+o = palindrome(x)
 print(o)
 
