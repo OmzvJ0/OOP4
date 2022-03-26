@@ -4,8 +4,7 @@ def palindrome(string):
         return True
     else:
         return False
-
-x = input("Введите число")
-o = palindrome(x)
-print(o)
+while 1:
+    x = input("Введите число ")
+    print(palindrome(x))
 
